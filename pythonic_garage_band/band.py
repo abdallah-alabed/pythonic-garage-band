@@ -8,7 +8,7 @@ class Band():
     def __init__(self,name,members):
         self.name=name
         self.members=members
-        Band.instances=[name]
+        Band.instances.append(self)
         
     
     @classmethod
